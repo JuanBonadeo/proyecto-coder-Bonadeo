@@ -1,0 +1,606 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.home {
+    padding-top: 5px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    background: black;
+    color: #FFB13C;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+nav div a{
+    font-size: 1.3em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 6px;
+}
+nav li{
+    font-size: 12px;
+    padding: 0 8px;
+    background-color: black;
+    text-align: center;
+    color: #FFB13C;
+    list-style: none;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    color: #D7D7D7;
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.442),rgba(0, 0, 0, 0.19)),
+    url("../IMAGES/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-color: #00000074;
+
+}
+li a:hover{
+    background: #FFB13C;
+    color: #333333;
+    border-radius: 10px;
+    
+}
+.selected{
+    background: #FFB13C;
+    color: #333333;
+    border-radius: 10px;
+}
+
+
+.myButton {
+	background:linear-gradient(to bottom, #f7e14f 5%, #ffab23 100%);
+	background-color:#f7e14f;
+	border-radius:42px;
+	border:3px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 21px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #f7e14f 100%);
+	background-color:#ffab23;
+}
+
+h1{
+    font-size: 2.5em ;
+    font-weight: 700;
+    padding: -20px 0;
+}
+
+
+h3{ font-size: .75em ;
+    font-weight: 500;
+}
+h4 {
+    font-size: .60em;
+    font-weight: 400;
+}
+
+h5{
+    font-size: .25em;
+}
+
+
+
+
+
+#nuestros-modelos{
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: #D7D7D7;
+    height: 800px;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+h2{
+    font-size: 1.5em ;
+    font-weight: 500;
+}
+
+
+.cards-modelos {
+    color: #D7D7D7;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    background: #FFB13C;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.laferrari{
+    background-image: url("../IMAGES/laferrari.jpg");
+}
+.spider{
+    background-image: url("../IMAGES/spider.jpg");
+}
+.veiron{
+    background-image: url("../IMAGES/Bugatti.jpg");
+}
+.bmw{
+    background-image: url("../IMAGES/bmwM8.jpg");
+}
+.corvete{
+    background-image: url("../IMAGES/corvette.jpg");
+}
+.mustang{
+    background-image: url("../IMAGES/Auto\ Addict\ 🏎️\ on\ Twitter.jpg");
+}
+.jaguar{
+    background-image: url("../IMAGES/jaguardo.jpg");
+}
+.aston-martin{
+    background-image: url("../IMAGES/Aston\'Martin.jpg");
+}
+.audi{
+    background-image: url("../IMAGES/audir8.jpg");
+}
+
+#nuestras-redes{
+    height: 300px;
+    background: #FFB13C;
+    padding-top: 40px;
+}
+
+#nuestras-redes h2{
+    display: flex;
+    color:rgb(0, 0, 0);
+    justify-content: center;
+    
+}
+.redes-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding-top: 20px;
+}
+.redes img {
+    width: 75px;
+    height: 75px;
+}
+footer{
+    background:#D7D7D7;
+    height: 270px;
+    
+}
+
+.footer-container{
+    background-color: black;
+    color: #D7D7D7;
+}
+.cards-footer h3{
+    padding: 2px 6px;
+    font-size: 1em;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: center;
+}
+.cards-footer{
+    padding: 0 20px;
+}
+
+.footer2{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zenit-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+
+@media (min-width:720px){
+    body{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5em ;
+        font-weight: 700;
+        padding: -20px 0;
+    }
+    nav div {
+        font-size: 1.9em;
+        padding-left: 10px;
+    }
+     nav a{
+        font-size: 1.7em;
+    }
+    h3{ font-size: .75em ;
+        font-weight: 500;
+    }
+    h4 {
+        font-size: .60em;
+        font-weight: 400;
+    }
+    
+    h5{
+        font-size: .25em;
+    }
+
+    .titulo{
+        height: 800px;
+        background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.442),rgba(0, 0, 0, 0.19)),
+    url("../IMAGES/corvete.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    
+    #nuestros-modelos{
+        padding-top: 150px;
+        
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 60px 0px;justify-content: space-between;
+        width: 80%;
+    }
+    .cards-modelos{
+        font-size: larger;
+        height: 300px;
+        width: 385px;
+        padding-top: 40px;
+        
+    }
+    footer{
+        border-top: 3px solid #D7D7D7;
+    }
+    .cards-footer{
+        padding: 0 100px;
+    }
+    
+    .footer2{
+        display: flex;
+        padding-top: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .zenit-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+}
+    
+
+/* MODELOS */
+.titulo-modelos h3{
+    margin-top: 5px;
+    font-size: medium;
+    color: #000000;
+}
+
+
+.titulo-modelos{
+    color: #D7D7D7;
+    background-color: #FFB13C;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../IMAGES/koiniseg\ \(2\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+   
+
+}
+
+#llegaron-modelos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    padding-bottom: 40px;
+    color: #D7D7D7;
+}
+
+ 
+
+ @media (min-width:720px){
+    
+    #llegaron-modelos div{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    cards-modelos {
+        padding: 40px 20px;
+        width: 100%;
+        
+    }
+}
+
+/*    SERVICIOS     */
+#servicios-cards{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    padding: 40px 0px;
+}
+
+.h3{
+    padding: 0 20px;
+}
+.servicios-cards{
+    height: 460px;
+    width: 400px;
+    border-radius: 10px;
+    padding: -10px 0;
+}
+.img-servicios{
+    height: 300px;
+    width:400px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.titulo-servicios{
+    background-image: url("../IMAGES/colorada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+    color: #000;
+}
+.img-garantias{
+    background-image: url("../IMAGES/garantias.jpg");
+}
+
+.img-consultas{
+    background-image: url("../IMAGES/recall.jpg");
+}
+
+.img-mantenimiento{
+    background-image: url("../IMAGES/planmantenimiento.jpg");
+}
+
+.img-asistencia{
+    background-image: url("../IMAGES/asesoria.jpg");
+}
+
+.img-accesorios{
+    background-image: url("../IMAGES/accesorios.jpg");
+}
+
+.img-cuenta{
+    background-image: url("../IMAGES/mi\'cuenta.jpg");
+}
+
+@media (min-width:720px){
+    .titulo-servicios h3{
+        padding: 0 210px;
+    }
+    .titulo-servicios{
+        height: 790px;
+        color: #000;
+    }
+    }
+
+
+
+
+
+/* CONTACTO */
+.nav-contacto{
+    margin-bottom: -100px;
+}
+#hero-container{
+    display: flex;
+    
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    background: #D7D7D7;
+    padding-bottom: 40px;
+    
+}
+div input {
+    margin: 16px 0;
+    width: 220px;
+}
+.map-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFB13C;
+    padding: 40px 0;border: 2px solid #000;
+}
+.map{
+background-image: url("../IMAGES/maps.jpg");
+    height: 400px;
+    width: 400px;
+}
+
+
+
+/* ACERCA */ 
+p{
+    font-size: .9em;
+    font-weight: 300;
+}
+.hero-acerca h3{
+    font-size: 1.1em;
+}
+.hero-acerca0{
+    background-image: none;
+    height: 700px;
+}
+.hero-acerca h1{
+    padding-bottom: -40px;}
+.hero-acerca{
+    height: 900px;
+    
+}
+
+.acerca1{
+    background: #000;
+    text-align: left;
+    padding-left: 190px;
+}
+.acerca2{
+    background: #FFB13C;
+    text-align: left;
+    padding-right: 190px;
+    
+}
+.acerca3{
+    background: #000;
+    text-align: left;
+    padding-left: 190px;
+    
+}
+
+@media (min-width:720px){
+    p{
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+    .hero-acerca h3{
+        font-size: 1.6em;
+    }
+    .hero-acerca0{
+        background-image: url("../IMAGES/hero-acercakoini.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+    }
+    .hero-acerca h1{
+        padding-bottom: -40px;
+    }
+    .hero-acerca{
+        height: 800px;
+        color: #000;
+    }
+    
+    .acerca1{
+        padding-left: 890px;
+        padding-top: -100px;
+        background-image: url("../IMAGES/viejo3a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .acerca2{
+        padding-right: 890px;
+        background-image: url("../IMAGES/f1vieja.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .acerca3{
+        padding-left: 890px;
+        background-image: url("../IMAGES/viejo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
