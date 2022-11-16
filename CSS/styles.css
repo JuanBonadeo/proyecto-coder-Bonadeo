@@ -44,6 +44,13 @@ nav li{
     text-align: center;
     color: #FFB13C;
     list-style: none;
+}nav li{
+    font-size: 12px;
+    padding: 0 8px;
+    background-color: black;
+    text-align: center;
+    color: #FFB13C;
+    list-style: none;
 }
 
 .titulo{
