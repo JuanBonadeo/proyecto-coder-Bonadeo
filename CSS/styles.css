@@ -20,6 +20,7 @@ nav{
     align-items: center;
     font-weight: 500;
     padding: 0 10px;
+    
 }
 
 
@@ -197,11 +198,20 @@ h2{
     height: 75px;
 }
 footer{
-    background:#D7D7D7;
-    height: 270px;
-    
+    background:#000000;
+    height: auto;
+    padding-bottom: 100px;
+}
+iframe {
+    border: 2px double #FFB13C;
 }
 
+.links-desktop-footer{
+    display: none; 
+}
+.icons-footer{
+    height: 900px;
+}
 .footer-container{
     background-color: black;
     color: #D7D7D7;
@@ -293,8 +303,14 @@ footer{
         padding-top: 40px;
         
     }
+    #nuestras-redes{
+        display: none;
+    }
     footer{
         border-top: 3px solid #D7D7D7;
+    }
+    .links-desktop-footer{
+        display: flex; 
     }
     .cards-footer{
         padding: 0 100px;
@@ -569,13 +585,30 @@ p{
         background-size: cover;
         background-position: center center;
     }
+    .footer-container acerca{
+        color: #D7D7D7;
+    }
+
+}
+
+
+
+
+.home a:hover {
+        color: #ce8611;
+      }
+
+
+.carousel-item{
+    height: 600px;
+    margin-top: 100px;
 }
 
 
 
 
 
-
+      
 
 
 
