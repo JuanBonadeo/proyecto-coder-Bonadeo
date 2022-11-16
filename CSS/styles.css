@@ -600,16 +600,56 @@ p{
 
 
 .carousel-item{
-    height: 600px;
-    margin-top: 100px;
+    height: 700px;
+    
+    position: relative;
 }
 
 
 
+.carousel-caption h5{
+    font-size: 2.5em;
+}
 
+.carousel-1{
+    background-image: url("../IMAGES/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.carousel-2{
+    background-image: url("../IMAGES/hero-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.carousel-3{
+    background-image: url("../IMAGES/hero-mobile2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
 
-      
-
+@media (min-width:720px){
+        .carousel-3{
+            background-image: url("../IMAGES/herobanner2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+        .carousel-2{
+            background-image: url("../IMAGES/Aston\'Martin.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+        .carousel-1{
+            background-image: url("../IMAGES/corvete.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+}
 
 
 
