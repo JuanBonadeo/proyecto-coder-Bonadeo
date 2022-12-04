@@ -1,0 +1,39 @@
+// UTILITIES
+@import './utilities/funtions';
+@import './utilities/mixins';
+@import './utilities/variable';
+
+// BASE
+@import './base/reset';
+@import './base/typo';
+@import './base/colors';
+
+// COMPONENTS
+@import './components/buttons';
+@import './components/bootstrap';
+@import './components/jumbo';
+
+// LAYOUT
+@import './layout/header';
+@import './layout/footer';
+@import './layout/forms';
+
+
+//VIEWS
+
+@import './views/contact';
+@import './views/modelos/modelos';
+@import './views/modelos/modelos2';
+@import './views/modelos/modelos3';
+@import './views/home';
+@import './views/servicios';
+@import './views/acerca';
+@import './layout/cards';
+
+
+
+
+
+
+
+

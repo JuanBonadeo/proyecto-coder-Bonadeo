@@ -1,0 +1,270 @@
+@import 'base/_typo.sass';
+@import 'components/buttons';
+@import 'components/jumbo';
+@import 'layout/header';
+@import 'layout/forms';
+@import 'utilities/funtions';
+@import 'utilities/mixins';
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';
+
+@import 'views';
+@import 'views';
+@import 'views';
+@import 'views';
+@import 'views';
+
+
+
+
+
+
+
+
+
+
+
+
+.selected {
+  background: $primary-color;
+  color: #333333;
+  border-radius: 10px; }
+
+
+
+
+
+
+
+
+
+
+
+.laferrari {
+  background-image: url("../IMAGES/laferrari.jpg"); }
+
+.spider {
+  background-image: url("../IMAGES/spider.jpg"); }
+
+.veiron {
+  background-image: url("../IMAGES/Bugatti.jpg"); }
+
+.bmw {
+  background-image: url("../IMAGES/bmwM8.jpg"); }
+
+.corvete {
+  background-image: url("../IMAGES/corvette.jpg"); }
+
+.mustang {
+  background-image: url("../IMAGES/Auto Addict 🏎️ on Twitter.jpg"); }
+
+.jaguar {
+  background-image: url("../IMAGES/jaguardo.jpg"); }
+
+.aston-martin {
+  background-image: url("../IMAGES/Aston'Martin.jpg"); }
+
+.audi {
+  background-image: url("../IMAGES/audir8.jpg"); }
+
+/* MODELOS 2 */
+.mini {
+  background-image: url("../IMAGES/minicooper.jpg"); }
+
+.bentley {
+  background-image: url("../images/bentley.jpg"); }
+
+.roll {
+  background-image: url("../images/rollroyce.jpg"); }
+
+.land {
+  background-image: url("../images/land.jpg"); }
+
+.gtr {
+  background-image: url("../images/nissangtr.jpg"); }
+
+.nsx {
+  background-image: url("../IMAGES/hondansx.jpg"); }
+
+.bmw-3300 {
+  background-image: url("../images/bmw3300.jpg"); }
+
+.alfa {
+  background-image: url("../images/alfa.jpg"); }
+
+.tesla {
+  background-image: url("../images/tesla.jpg"); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODELOS */
+
+
+
+
+
+/*    SERVICIOS     */
+#servicios-cards {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 40px 0px; }
+
+.h3 {
+  padding: 0 20px; }
+
+
+
+
+
+
+
+.img-garantias {
+  background-image: url("../IMAGES/garantias.jpg"); }
+
+.img-consultas {
+  background-image: url("../IMAGES/recall.jpg"); }
+
+.img-mantenimiento {
+  background-image: url("../IMAGES/planmantenimiento.jpg"); }
+
+.img-asistencia {
+  background-image: url("../IMAGES/asesoria.jpg"); }
+
+.img-accesorios {
+  background-image: url("../IMAGES/accesorios.jpg"); }
+
+.img-cuenta {
+  background-image: url("../IMAGES/mi'cuenta.jpg"); }
+
+@media (min-width: 720px) {
+  .titulo-servicios h3 {
+    padding: 0 210px; }
+  .titulo-servicios {
+    height: 790px;
+    color: $secondary-color; } }
+
+/* CONTACTO */
+.nav-contacto {
+  margin-bottom: -100px; }
+
+#hero-container {
+  display: flex; }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 40px; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 97% 0%; }
+  50% {
+    background-position: 4% 100%; }
+  100% {
+    background-position: 97% 0%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 97% 0%; }
+  50% {
+    background-position: 4% 100%; }
+  100% {
+    background-position: 97% 0%; } }
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 97% 0%; }
+  50% {
+    background-position: 4% 100%; }
+  100% {
+    background-position: 97% 0%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 97% 0%; }
+  50% {
+    background-position: 4% 100%; }
+  100% {
+    background-position: 97% 0%; } }
+
+div input {
+  margin: 16px 0;
+  width: 320px;
+  border-radius: 5px; }
+
+.map-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px; }
+
+#hero-contactanos {
+  background: linear-gradient(343deg, #ffcd00, #ff0000, #ffc100, #ffc100, #ff0000);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  -o-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite; }
+
+/* ACERCA */
+p {
+  font-size: .9em;
+  font-weight: 300; }
+
+
+
+.home a:hover {
+  color: #ce8611; }
+
+.carousel-item {
+  height: 700px;
+  position: relative; }
+
+.carousel-caption h5 {
+  font-size: 2.5em; }
+
+.carousel-1 {
+  background-image: url("../IMAGES/hero.jpg");
+@include fix-image; }
+
+.carousel-2 {
+  background-image: url("../IMAGES/hero-mobile.jpg");
+@include fix-image; }
+
+.carousel-3 {
+  background-image: url("../IMAGES/hero-mobile2.jpg");
+@include fix-image; }
+
+@media (min-width: 720px) {
+  .carousel-3 {
+    background-image: url("../IMAGES/herobanner2.jpg");
+    @include fix-image; }
+  .carousel-2 {
+    background-image: url("../IMAGES/Aston'Martin.jpg");
+    @include fix-image; }
+  .carousel-1 {
+    background-image: url("../IMAGES/corvete.jpg");
+    @include fix-image; } }
