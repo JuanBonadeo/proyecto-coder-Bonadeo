@@ -28,7 +28,8 @@
   
   .carousel-1 {
     background-image: url("../IMAGES/hero.jpg");
-    @include fix-image; }
+    @include fix-image; 
+  }
   
   .carousel-2 {
     background-image: url("../IMAGES/hero-mobile.jpg");

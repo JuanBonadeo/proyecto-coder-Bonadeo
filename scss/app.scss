@@ -1,7 +1,7 @@
 // UTILITIES
-@import './utilities/funtions';
+@import './utilities/functions';
 @import './utilities/mixins';
-@import './utilities/variable';
+@import './utilities/variables';
 
 // BASE
 @import './base/reset';
@@ -11,12 +11,11 @@
 // COMPONENTS
 @import './components/buttons';
 @import './components/bootstrap';
-@import './components/jumbo';
 
 // LAYOUT
 @import './layout/header';
 @import './layout/footer';
-@import './layout/forms';
+
 
 
 //VIEWS

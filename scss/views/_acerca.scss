@@ -2,6 +2,10 @@
     width: 100%;
     p{
         text-align: left;
+        color: $secondary-color;
+    }
+    h3{
+      color: $secondary-color;
     }}
     #hero .titulo p {
         text-align: right;
@@ -12,10 +16,9 @@
   
   .hero-acerca0 {
     background-image: none;
-    height: 800px;
-    background-image: url("../IMAGES/heroacerca.jpg");
+    height: 900px;
+    background-image: url("../IMAGES/herobannerdesktop.jpg");
   @include fix-image;
-    background-attachment: fixed;
     color: white; }
   
   .hero-acerca h1 {
@@ -30,7 +33,7 @@
     text-align: end;
     padding-left: 190px;
     background-attachment: fixed;
-    background-image: url("../IMAGES/Juan Manuel Fangio Wallpapers.jpg");
+    background-image: url("../IMAGES/fangio.jpg");
   @include fix-image; }
   
   .acerca {
@@ -50,7 +53,7 @@
     text-align: end;
     padding-left: 190px;
     background-attachment: fixed;
-    background-image: url("../IMAGES/Chevrolet_Corvette_1960_Corvette_Scaglietti_Front_562374_2560x1440.jpg");
+    background-image: url("../images/Chevrolet_Corvette.jpg");
   @include fix-image; }
   
   @media (min-width: 720px) {
@@ -73,3 +76,5 @@
       padding-left: 890px; }
     .footer-container acerca {
       color: $third-color; } }
+
+    
