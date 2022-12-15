@@ -15,17 +15,17 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-items: center;
-    padding: 40px 0px; 
+    padding: 90px 0px; 
     .servicios-cards {
         height: 460px;
         width: 320px;
         border-radius: 10px;
-        padding: -10px 0; }
+        padding-bottom: 10px;
     .img-servicios {
         height: 300px;
         width: 320px;
         border-radius: 10px;
-      @include fix-image }}
+      @include fix-image }}}
 
 
       @media (min-width: 720px) {
@@ -34,4 +34,15 @@
            }
         .titulo-servicios {
           height: 790px;
-          color: $secondary-color; } }
+          color: $secondary-color; } 
+          #servicios-cards .servicios-cards {
+            height: 560px;
+            width: 320px;
+            border-radius: 10px;
+            padding-bottom: 50px;
+        .img-servicios {
+            height: 300px;
+            width: 320px;
+            border-radius: 10px;
+          @include fix-image }}
+        }

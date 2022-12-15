@@ -16,7 +16,7 @@
   
   .hero-acerca0 {
     background-image: none;
-    height: 900px;
+    height: 1400px;
     background-image: url("../IMAGES/herobannerdesktop.jpg");
   @include fix-image;
     color: white; }
@@ -25,7 +25,7 @@
     padding-bottom: -40px; }
   
   .hero-acerca {
-    height: 900px;
+    height: 1400px;
     background-attachment: fixed; }
   
   .acerca1 {
@@ -56,7 +56,7 @@
     background-image: url("../images/Chevrolet_Corvette.jpg");
   @include fix-image; }
   
-  @media (min-width: 720px) {
+  @media (min-width: 1138px) {
     .hero-acerca h3 {
       font-size: 1.6em; }
     .hero-acerca0 {
@@ -65,7 +65,7 @@
     .hero-acerca h1 {
       padding-bottom: -40px; }
     .hero-acerca {
-      height: 800px;
+      height: 1200px;
       color: $secondary-color; }
     .acerca1 {
       padding-left: 890px;
@@ -76,5 +76,7 @@
       padding-left: 890px; }
     .footer-container acerca {
       color: $third-color; } }
+
+      
 
     

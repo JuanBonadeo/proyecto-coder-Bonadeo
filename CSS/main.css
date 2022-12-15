@@ -147,7 +147,7 @@ header {
 footer {
   background: #000000;
   height: auto;
-  padding-bottom: 100px;
+  padding-bottom: 1px;
   border-top: 1px solid #dee2e6; }
   footer iframe {
     border: 2px double #FFB13C; }
@@ -172,6 +172,11 @@ footer {
 
 .cards-footer {
   padding: 0 20px; }
+
+@media (min-width: 1400px) {
+  .mostwanted {
+    flex-direction: row;
+    gap: 15px; } }
 
 .titulo {
   width: min-content;
@@ -337,44 +342,6 @@ div input {
   -o-animation: AnimationName 8s ease infinite;
   animation: AnimationName 8s ease infinite; }
 
-.titulo-servicios {
-  background-image: url("../images/colorada.jpg");
-  background-color: #00000020;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 900px;
-  color: #000; }
-
-#servicios-cards {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-items: center;
-  padding: 40px 0px; }
-  #servicios-cards .servicios-cards {
-    height: 460px;
-    width: 320px;
-    border-radius: 10px;
-    padding: -10px 0; }
-  #servicios-cards .img-servicios {
-    height: 300px;
-    width: 320px;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; }
-
-@media (min-width: 720px) {
-  .titulo-servicios h3 {
-    padding-top: 40px; }
-  .titulo-servicios {
-    height: 790px;
-    color: #000; } }
-
 .titulo-modelos {
   color: #D7D7D7;
   background-color: #FFB13C;
@@ -446,7 +413,7 @@ div input {
 
 .hero-acerca0 {
   background-image: none;
-  height: 900px;
+  height: 1400px;
   background-image: url("../IMAGES/herobannerdesktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -457,7 +424,7 @@ div input {
   padding-bottom: -40px; }
 
 .hero-acerca {
-  height: 900px;
+  height: 1400px;
   background-attachment: fixed; }
 
 .acerca1 {
@@ -494,7 +461,7 @@ div input {
   background-size: cover;
   background-position: center center; }
 
-@media (min-width: 720px) {
+@media (min-width: 1138px) {
   .hero-acerca h3 {
     font-size: 1.6em; }
   .hero-acerca0 {
@@ -503,7 +470,7 @@ div input {
   .hero-acerca h1 {
     padding-bottom: -40px; }
   .hero-acerca {
-    height: 800px;
+    height: 1200px;
     color: #000; }
   .acerca1 {
     padding-left: 890px;
@@ -514,6 +481,56 @@ div input {
     padding-left: 890px; }
   .footer-container acerca {
     color: #D7D7D7; } }
+
+.titulo-servicios {
+  background-image: url("../images/colorada.jpg");
+  background-color: #00000020;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 900px;
+  color: #000; }
+
+#servicios-cards {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 90px 0px; }
+  #servicios-cards .servicios-cards {
+    height: 460px;
+    width: 320px;
+    border-radius: 10px;
+    padding-bottom: 10px; }
+    #servicios-cards .servicios-cards .img-servicios {
+      height: 300px;
+      width: 320px;
+      border-radius: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; }
+
+@media (min-width: 720px) {
+  .titulo-servicios h3 {
+    padding-top: 40px; }
+  .titulo-servicios {
+    height: 790px;
+    color: #000; }
+  #servicios-cards .servicios-cards {
+    height: 560px;
+    width: 320px;
+    border-radius: 10px;
+    padding-bottom: 50px; }
+    #servicios-cards .servicios-cards .img-servicios {
+      height: 300px;
+      width: 320px;
+      border-radius: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; } }
 
 .laferrari {
   background-image: url("../IMAGES/laferrari.jpg"); }
@@ -568,6 +585,33 @@ div input {
 
 .tesla {
   background-image: url("../images/tesla.jpg"); }
+
+.challenger {
+  background-image: url("../IMAGES/challenger.jpg"); }
+
+.veloster {
+  background-image: url("../IMAGES/veloster.jpg"); }
+
+.fordgt {
+  background-image: url("../IMAGES/fordgt.jpg"); }
+
+.jeep {
+  background-image: url("../IMAGES/jeep.jpg"); }
+
+.sw4 {
+  background-image: url("../IMAGES/sw4.jpg"); }
+
+.bronco {
+  background-image: url("../IMAGES/bronco.jpg"); }
+
+.scirocco {
+  background-image: url("../IMAGES/scirocco.jpg"); }
+
+.mercedes-amg {
+  background-image: url("../IMAGES/mercedes-amg.jpg"); }
+
+.volvo {
+  background-image: url("../IMAGES/Volvopolestar.jpg"); }
 
 .img-garantias {
   background-image: url("../IMAGES/garantias.jpg"); }
