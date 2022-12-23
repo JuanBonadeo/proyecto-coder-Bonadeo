@@ -456,7 +456,7 @@ div input {
   text-align: end;
   padding-left: 190px;
   background-attachment: fixed;
-  background-image: url("../images/Chevrolet_Corvette.jpg");
+  background-image: url("../IMAGES/chevrolet.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -483,7 +483,7 @@ div input {
     color: #D7D7D7; } }
 
 .titulo-servicios {
-  background-image: url("../images/colorada.jpg");
+  background-image: url("../IMAGES/colorada.jpg");
   background-color: #00000020;
   background-repeat: no-repeat;
   background-size: cover;
